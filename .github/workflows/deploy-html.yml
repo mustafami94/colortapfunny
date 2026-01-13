@@ -16,4 +16,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v6
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./      # دليل ملفات HTML مباشرة
+          publish_dir: ./docs      # دليل ملفات HTML مباشرة
